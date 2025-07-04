@@ -79,6 +79,22 @@ This project can be adapted for:
 - Demonstration of computer vision concepts
 
 ---
+
+> ℹ️ **Note:**  
+This image was captured during testing on my machine. The bounding box shows face detection, and the label indicates the recognized name and accuracy percentage.
+
+![Recognition Example](screenshots/recognition.png)
+
+---
+
+## 📬 Contact
+
+If you have any questions or suggestions, feel free to reach out:
+
+- Email: *[pteja665@gmail.com]*
+
+---
+
 ---
 
 ## 🛠️ Installation Guide (IMPORTANT: Python 3.10 REQUIRED)
@@ -87,17 +103,26 @@ This project can be adapted for:
 This project requires **Python 3.10**.  
 TensorFlow and OpenCV may **not work properly** with Python 3.11, 3.12, or 3.13.
 
----
----
-
-## 📷 Example Output Screenshot
-
-Below is an example of the application running in real-time recognition mode.  
-The model predicts the person's name with a confidence score.
-
-> ℹ️ **Note:**  
-This image was captured during testing on my machine. The bounding box shows face detection, and the label indicates the recognized name and accuracy percentage.
-
-![Recognition Example](screenshots/recognition.png)
+Follow these steps exactly:
 
 ---
+### 1️⃣ Install Python 3.10
+
+If you do not already have Python 3.10 installed:
+
+- Download from the official site:  
+  [Python 3.10.11 Windows Installer](https://www.python.org/ftp/python/3.10.11/python-3.10.11-amd64.exe)
+
+- Run the installer:
+  - ✅ Check **"Add Python to PATH"**
+  - Click **Install Now**
+
+---
+
+### 2️⃣ Clone the Repository
+
+Open **Command Prompt** and run:
+
+```bash
+git clone https://github.com/tejapotteti/face-recognition-cnn.git
+cd face-recognition-cnn
