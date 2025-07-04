@@ -98,6 +98,6 @@ The model predicts the person's name with a confidence score.
 > ℹ️ **Note:**  
 This image was captured during testing on my machine. The bounding box shows face detection, and the label indicates the recognized name and accuracy percentage.
 
-![Recognition Example](Screenshot 2025-07-04 134055.png)
+![Recognition Example](screenshots/recognition.png)
 
 ---
